@@ -1,0 +1,8 @@
+oop.lab.sln
+
+oop.lab/Debug/*
+oop.lab/Project1.vcxproj
+oop.lab/Project1.vcxproj.filters
+oop.lab/Project1.vcxproj.user
+Debug/*
+.vs/*
