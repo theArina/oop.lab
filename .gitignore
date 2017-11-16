@@ -1,4 +1,6 @@
 oop.lab.sln
+oop.lab/x64/*
 oop.lab/oop.vcxproj
 oop.lab/oop.vcxproj.filters
 .vs/*
+x64/*
