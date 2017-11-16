@@ -4,3 +4,5 @@ oop.lab/oop.lab.vcxproj
 oop.lab/oop.lab.vcxproj.filters
 Debug/*
 .vs/*
+x64/*
+oop.lab/x64/*
