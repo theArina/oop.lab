@@ -1,7 +1,4 @@
-oop.sln
-oop/Debug/*
-oop/oop.vcxproj
-oop/oop.vcxproj.filters
-oop/oop.vcxproj.user
-Debug/*
+oop.lab.sln
+oop.lab/oop.vcxproj
+oop.lab/oop.vcxproj.filters
 .vs/*
