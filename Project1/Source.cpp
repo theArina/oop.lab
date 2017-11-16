@@ -1,7 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <windows.h>
 #include <windowsx.h>
 #include <stdio.h>
 #include <conio.h>
+
 void main()
 {
 	// получаем идентификатор окна
@@ -36,8 +38,8 @@ void main()
 		// выводим строку графическими средствами
 		TextOutA(hdc, 10, 10, buf, strlen(buf));
 		// рисуем закрашенный эллипс
-		Ellipse(hdc, 10, 30, rt.rightЦ10, rt.bottomЦ10);
-	} while (getch() != 27); // при нажатии любой клавиши
+		Ellipse(hdc, 10, 30, rt.right-10, rt.bottom-10);
+	} while (_getch() != 27); // при нажатии любой клавиши
 							 // (кроме Esc) перерисовываем изображение,
 							 // изображение изменитс€, если изменились размеры окна,
 							 // нажатие Esc Ц выход
