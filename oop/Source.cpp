@@ -13,16 +13,16 @@ void main()
 	RECT rt;
 	char buf[100];
 	// устанавливаем цвет фона
-	SetBkColor(hdc, RGB(0, 0, 0));
+	SetBkColor(hdc, RGB(255, 255, 255));
 	// устанавливаем цвет текста
-	SetTextColor(hdc, RGB(255, 0, 0));
+	SetTextColor(hdc, RGB(0, 0, 0));
 	// создаем красное перо
-	HPEN hRedPen = CreatePen(PS_SOLID, 5, RGB(255, 0, 0));
+	HPEN hRedPen = CreatePen(PS_SOLID, 5, RGB(0, 100, 200));
 	// и выбираем его в контекст отображени€,
 	// сохран€€ предыдущее перо
 	HPEN hOldPen = SelectPen(hdc, hRedPen);
 	// создаем зеленую кисть
-	HBRUSH hGreenBrush = CreateSolidBrush(RGB(0, 255, 0));
+	HBRUSH hGreenBrush = CreateSolidBrush(RGB(170, 200, 255));
 	// и выбираем ее в контекст отображени€,
 	// сохран€€ предыдущую кисть
 	HBRUSH hOldBrush = SelectBrush(hdc, hGreenBrush);
